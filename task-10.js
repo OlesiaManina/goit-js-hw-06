@@ -16,7 +16,6 @@ function createBoxes(amount) {
   newBox.style.height = `${size}px`;
   newBox.style.backgroundColor = getRandomHexColor();
   createdBoxes.push(newBox);
-  // console.log(createdBoxes);
   }  
   boxesRef.append(...createdBoxes);
 }
