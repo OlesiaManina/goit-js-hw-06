@@ -21,7 +21,6 @@ function handleSubmit(event) {
             [keyPassword]: valuePassword,
         };
         console.log(result);
-        return result;
         
     }     
     
